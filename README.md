@@ -21,7 +21,9 @@ The pipeline extracts raw JSON logs and song metadata from S3, stages them into 
 ---
 
 ## Project Structure
-.
+<pre>
+\```text
+.  
 ├── dags/
 │   └── final_project.py                # Main DAG definition
 ├── plugins/
@@ -35,9 +37,10 @@ The pipeline extracts raw JSON logs and song metadata from S3, stages them into 
 ├── helpers/
 │   └── final_project_sql_statements.py # SQL helper class
 ├── assets/
-│   └── dag.png                        # DAG graph view
+│   ├── dag.png                        # DAG graph view
 │   └── dag_runs.png                   # DAG run history
-
+\```
+</pre>
 
 ---
 
